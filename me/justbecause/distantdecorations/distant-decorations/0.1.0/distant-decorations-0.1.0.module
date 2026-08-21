@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.justbecause.distantdecorations",
+    "module": "distant-decorations",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "distant-decorations-0.1.0.jar",
+          "url": "distant-decorations-0.1.0.jar",
+          "size": 100148,
+          "sha512": "827b78c2c18c47822931f403e6d9fd66565f04e5174522792c09351113b73021444d5d58967b55fe3773b813c4d726de1f87b26cbfec60a7c71dc34b01dc6e18",
+          "sha256": "46e5f07fc95032702e9c80255c2743686710c9c8be5d68a69e6fa7f267dc7eea",
+          "sha1": "2586c7be4498999953daf6750e1180844deb7155",
+          "md5": "db481239a8f636403694db9a5728a162"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.158.0+26.2"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "voxy",
+          "version": {
+            "requires": "zZX86mbc"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "sodium",
+          "version": {
+            "requires": "mc26.2-0.9.1-fabric"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "spark",
+          "version": {
+            "requires": "1.10.173-fabric"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "distant-decorations-0.1.0.jar",
+          "url": "distant-decorations-0.1.0.jar",
+          "size": 100148,
+          "sha512": "827b78c2c18c47822931f403e6d9fd66565f04e5174522792c09351113b73021444d5d58967b55fe3773b813c4d726de1f87b26cbfec60a7c71dc34b01dc6e18",
+          "sha256": "46e5f07fc95032702e9c80255c2743686710c9c8be5d68a69e6fa7f267dc7eea",
+          "sha1": "2586c7be4498999953daf6750e1180844deb7155",
+          "md5": "db481239a8f636403694db9a5728a162"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "distant-decorations-0.1.0-sources.jar",
+          "url": "distant-decorations-0.1.0-sources.jar",
+          "size": 44810,
+          "sha512": "8a21641395b8092b0dcbea156e95e48310a715d20ae564edff793f6d92abda328de65ad6f8121d7ff448c89e09e6ba59a79c7f34b040cb31683b7bfbe3aabfa5",
+          "sha256": "d741d03107c57074fc480cc71fa72cfb0aedc11d5dac624b116d0ee163c9b3a5",
+          "sha1": "32c73fa528cd0a58117a9a12fb79c562d25ccbc1",
+          "md5": "36d5f851c1f0b852b754a7806009e5c8"
+        }
+      ]
+    }
+  ]
+}

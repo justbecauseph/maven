@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>me.justbecause.distantdecorations</groupId>
+  <artifactId>distant-decorations</artifactId>
+  <version>0.1.0</version>
+  <name>Distant Decorations</name>
+  <description>A high-performance Fabric framework for persistent, long-distance decorative block-entity visuals.</description>
+  <url>https://github.com/justbecauseph/distant-decorations</url>
+  <licenses>
+    <license>
+      <name>Mozilla Public License 2.0</name>
+      <url>https://www.mozilla.org/MPL/2.0/</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:https://github.com/justbecauseph/distant-decorations.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/justbecauseph/distant-decorations.git</developerConnection>
+    <url>https://github.com/justbecauseph/distant-decorations</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>net.fabricmc</groupId>
+      <artifactId>fabric-loader</artifactId>
+      <version>0.19.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.fabricmc.fabric-api</groupId>
+      <artifactId>fabric-api</artifactId>
+      <version>0.158.0+26.2</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>maven.modrinth</groupId>
+      <artifactId>voxy</artifactId>
+      <version>zZX86mbc</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>maven.modrinth</groupId>
+      <artifactId>sodium</artifactId>
+      <version>mc26.2-0.9.1-fabric</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>maven.modrinth</groupId>
+      <artifactId>spark</artifactId>
+      <version>1.10.173-fabric</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
