@@ -3,13 +3,14 @@
   <groupId>town.lampas</groupId>
   <artifactId>haruhi</artifactId>
   <versioning>
-    <latest>0.2.1</latest>
-    <release>0.2.1</release>
+    <latest>0.3.0</latest>
+    <release>0.3.0</release>
     <versions>
       <version>0.1.0</version>
       <version>0.2.0</version>
       <version>0.2.1</version>
+      <version>0.3.0</version>
     </versions>
-    <lastUpdated>20261108005104</lastUpdated>
+    <lastUpdated>20261108022432</lastUpdated>
   </versioning>
 </metadata>
