@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "town.lampas",
+    "module": "haruhi",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "haruhi-0.6.0.jar",
+          "url": "haruhi-0.6.0.jar",
+          "size": 1753122,
+          "sha512": "502bd69135a1d5ee407441bfd9c7818c7e7a5ba1e1df7d3357618210a6d1742ab928991af9313ede6e03b77caaad6b45aa7caf59417f66e3fe82cf670a6e4c95",
+          "sha256": "9c6a80bb0855561385417deb96ff0f2520daf4308d8c7cc6537dd7082f45080a",
+          "sha1": "b271b69c83ac20dc67a20dc38d3a464657167fea",
+          "md5": "2625058af66759bbf7b999520a9c334c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.158.0+26.2"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "7.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "haruhi-0.6.0.jar",
+          "url": "haruhi-0.6.0.jar",
+          "size": 1753122,
+          "sha512": "502bd69135a1d5ee407441bfd9c7818c7e7a5ba1e1df7d3357618210a6d1742ab928991af9313ede6e03b77caaad6b45aa7caf59417f66e3fe82cf670a6e4c95",
+          "sha256": "9c6a80bb0855561385417deb96ff0f2520daf4308d8c7cc6537dd7082f45080a",
+          "sha1": "b271b69c83ac20dc67a20dc38d3a464657167fea",
+          "md5": "2625058af66759bbf7b999520a9c334c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "haruhi-0.6.0-sources.jar",
+          "url": "haruhi-0.6.0-sources.jar",
+          "size": 264893,
+          "sha512": "81948f9edb919b6406c49c5c707ed82289f291bcb61d0027a0549f62fdbe6e8cd65a4095b4b8d41cae3186bc7ae00d389aa2d260f3c7de8ca30df555d1cfa98c",
+          "sha256": "c028e151c562c3a74f7fc8c643027fdd412285bc599a98989315c5878cf7513d",
+          "sha1": "1d86bf9d00ec2656fb503efe8e09e6d43a05ae10",
+          "md5": "50edd7f61dcfe64bfb8c7abe22a7bad7"
+        }
+      ]
+    }
+  ]
+}
